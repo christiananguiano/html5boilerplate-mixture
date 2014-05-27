@@ -1,1 +1,1 @@
-My starter template for Mixture.io
+Starter template for [Mixture.io](http://mixture.io) using the [HTML5 boilerplate](http://html5boilerplate.com/).
