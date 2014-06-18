@@ -1,1 +1,72 @@
 @import "normalize";
+@import "bourbon/bourbon";
+@import "base/base";
+
+// Bitters
+@import "neat/neat";
+
+.container {
+    @include outer-container;
+    padding: 0 1em;
+    .intro {
+        @include span-columns(6);
+        @include shift(3);
+        @include row();
+        @include media($tablet) {
+            @include span-columns(6);
+            @include shift(1);
+        }
+
+        @include media($mobile) {
+            @include span-columns(4);
+            @include shift(0);
+        }
+
+        h3 {
+            span {
+                color: #ff6a72;
+            }
+            a {
+                @extend span;
+            }
+        }
+        ul {
+        	list-style: square;
+            li {
+                p {
+                    padding: 1em 0;
+                    code {
+                        color: #ff6a72;
+                    }
+                }
+            }
+        }
+    }
+    .docs {
+    	@include span-columns(6);
+    	@include shift(3);
+    	@include media($mobile) {
+    		@include span-columns(4);
+    		@include shift(0);
+    	}
+    	h4 {
+    		padding: .5em 0;
+    	}
+    	a {
+    		@include span-columns(2 of 6);
+    		text-align: center;
+    		background: #ff6a72;
+    		color: #fff;
+    		padding: .25em .50em;
+    		border-radius: 3px;
+    		@include transition(background .3s ease-in);
+    		@include media($mobile) {
+    			@include span-columns(4);
+    			margin: .5em 0;
+    		}
+    		&:hover {
+    			background: tint(#ff6a72, 25%);
+    		}
+    	}
+    }
+}

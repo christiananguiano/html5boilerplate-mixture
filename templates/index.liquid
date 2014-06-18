@@ -1,3 +1,22 @@
-{% block content %} 
-	<p>Hello world! This is HTML5 Boilerplate.</p>
+{% block content %}
+	<div class="container">
+		<div class="intro">
+			<h3>This is a <span>Bourbon</span>, <span>Neat</span>, <span>Bitters</span> and HTML 5 boilerplate for <a href="http://mixture.io">Mixture.io</a></h3>
+			
+			<ul>
+				<li>
+					<p>To disable the grid overlay edit <code>grid-setting.scss</code> under <code>assets/scss/base</code> and set the variable <code>$visual-grid</code> to <code>false</code>.</p>
+				</li>
+				<li>
+					<p>To change breakpoints edit <code>grid-setting.scss</code> under <code>assets/scss/base</code> and set the variables <code>$tablet</code> & <code>$mobile</code>.</p>
+				</li>
+			</ul>
+		</div>
+		<div class="docs">
+		<h4>Links to documentation:</h4>
+			<a href="http://bourbon.io/docs/" target="_blank">Bourbon</a>
+			<a href="http://neat.bourbon.io/docs/" target="_blank">Neat</a>
+			<a href="http://bitters.bourbon.io/" target="_blank">Bitters</a>
+		</div>
+	</div>
 {% endblock %}
