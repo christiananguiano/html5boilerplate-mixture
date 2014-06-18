@@ -1,9 +1,9 @@
 ### This is a <span style="color:#ff6a72">Bourbon</span>, <span style="color:#ff6a72">Neat</span>, <span style="color:#ff6a72">Bitters</span> and HTML 5 boilerplate for [Mixture.io](Mixture.io)
 			
 
-* To disable the grid overlay edit `grid-setting.scss` under `assets/scss/base` and set variable `$visual-grid` to `false`.
+* To disable the grid overlay edit `grid-setting.scss` under `assets/scss/base/` and set variable `$visual-grid` to `false`.
 
-* To change breakpoints edit `grid-setting.scss` under `assets/scss/base` and set the variables `$tablet` & `$mobile`.
+* To change breakpoints edit `grid-setting.scss` under `assets/scss/base/` and set the variables `$tablet` & `$mobile`.
 
 
 #### Links to documentation:
